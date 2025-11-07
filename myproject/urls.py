@@ -34,6 +34,6 @@ urlpatterns = [
 
     # RUTAS DE USUARIOS (Registro, Logout, Test Protegido)
     # Incluimos el users/urls.py bajo el prefijo /api/auth/
-    path('api/auth1/', include('users.urls')),
+    path('api/auth/', include('users.urls')),
     # ---------------------------------------
 ]
